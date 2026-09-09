@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Репетитор по математике — Иван Иванов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Math<span>Tutor</span></a>
+            <button class="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="#" data-modal-open class="btn" style="padding: 0.6rem 1.5rem;">Записаться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Математика <span>без стресса</span><br>и с высоким результатом</h1>
+            <p>Индивидуальные занятия с опытным репетитором для учеников 5–11 классов. Подготовка к ОГЭ и ЕГЭ на 85+ баллов.</p>
+            <a href="contact.html" class="btn">Бесплатная консультация</a>
+            <a href="services.html" class="btn btn-outline">Узнать цены</a>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Почему выбирают меня</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Опыт 10+ лет</h3>
+                    <p>Выпускник МГУ, действующий преподаватель. Знаю все подводные камни экзаменов.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Индивидуальная программа</h3>
+                    <p>Подстраиваюсь под уровень, цели и скорость ученика. Никаких шаблонов.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Гарантия прогресса</h3>
+                    <p>Средний балл моих учеников на ЕГЭ — 85+. За год занятий улучшение минимум на 20 баллов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <h3>Запись на занятие</h3>
+            <p>Оставьте заявку, и я свяжусь с вами в течение часа для уточнения деталей.</p>
+            <a href="contact.html" class="btn">Перейти к форме</a>
+            <br><br>
+            <button data-modal-close style="background:none;border:none;color:var(--text-light);cursor:pointer;">Закрыть</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Иван Иванов — репетитор по математике</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
